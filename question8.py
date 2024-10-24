@@ -1,3 +1,7 @@
+from dbm import error
+from logging import exception
+
+
 def day_of_week_checker():
     # Ask the user to enter a number
     day_number = input("Enter a number (1 to 7): ")
@@ -14,6 +18,7 @@ def day_of_week_checker():
             print(f"The day of the week is: {days[day_number - 1]}")
         else:
             print("Invalid input.")
+
     except ValueError:
         print("Invalid input.")
 
