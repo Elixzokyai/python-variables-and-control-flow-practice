@@ -1,7 +1,9 @@
 # Odd or Even Checker
-number = int(input("Enter a number: "))
+Pablo = int(input("Enter a number: "))
 
-if number % 2 == 0:
-    print(f"{number} is even.")
+if Pablo % 2 == 0:
+    print(f"{Pablo} is even.")
 else:
-    print(f"{number} is odd.")
+    print(f"{Pablo} is odd.")
+
+

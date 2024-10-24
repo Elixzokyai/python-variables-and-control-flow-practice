@@ -1,4 +1,5 @@
 # Function to categorize grade based on score
+
 def categorize_grade(score):
     if 90 <= score <= 100:
         return "A"

@@ -12,12 +12,12 @@ def triangle_type(a, b, c):
 
 # Input: lengths of the sides
 try:
-    side1 = float(input("Enter the length of side 1: "))
-    side2 = float(input("Enter the length of side 2: "))
-    side3 = float(input("Enter the length of side 3: "))
+    Tri1 = float(input("Enter the length of side 1: "))
+    Tri2 = float(input("Enter the length of side 2: "))
+    Tri3 = float(input("Enter the length of side 3: "))
 
     # Determine the type of triangle
-    result = triangle_type(side1, side2, side3)
+    result = triangle_type(Tri1, Tri2, Tri3)
     print(result)
 except ValueError:
     print("Please enter valid numbers for the sides.")
